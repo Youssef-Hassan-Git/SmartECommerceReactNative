@@ -1,30 +1,55 @@
 {
   "expo": {
-    "name": "SmartECommerce",
+    "name": "Smart ECommerce",
     "slug": "SmartECommerce",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/images/app-logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./src/assets/images/app-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
     "ios": {
       "supportsTablet": true
     },
+
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/assets/images/app-logo.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.youssef6969steam.SmartECommerce"
     },
+
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./src/assets/images/app-logo.png",
+          "imageWidth": 250
+        }
+      ],
+      "expo-font"
+    ],
+
+    "extra": {
+      "eas": {
+        "projectId": "45730b2b-9c72-4b57-b16d-e216a0e76662"
+      }
+    },
+
+    "owner": "youssef6969s-team"
   }
 }
