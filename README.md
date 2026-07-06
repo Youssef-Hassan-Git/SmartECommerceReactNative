@@ -146,7 +146,7 @@ The latest Android APK will be available from the GitHub Releases page.
 
 GitHub: https://github.com/Youssef-Hassan-Git
 
-LinkedIn: *(Add your LinkedIn profile here)*
+LinkedIn: *([Add your LinkedIn profile here](https://www.linkedin.com/in/youssef-hassan-professional1/))*
 
 ---
 
